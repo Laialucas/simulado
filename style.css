@@ -1,0 +1,97 @@
+/* Reset básico */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+font-family: "Segoe UI", Arial, sans-serif;
+background: #f4f6f9;
+display: flex;
+justify-content: center;
+padding: 30px;
+}
+
+/* Container principal */
+.container {
+width: 100%;
+max-width: 700px;
+background: white;
+border-radius: 10px;
+padding: 25px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Título */
+h1 {
+margin-bottom: 20px;
+color: #333;
+}
+
+/* Pergunta */
+#question {
+font-size: 20px;
+margin-bottom: 20px;
+color: #222;
+}
+
+/* Opções */
+.option {
+border: 2px solid #ddd;
+border-radius: 8px;
+padding: 12px;
+margin-bottom: 10px;
+cursor: pointer;
+transition: all 0.2s ease;
+text-align: left;
+}
+
+.option:hover {
+background: #f0f7ff;
+border-color: #007bff;
+}
+
+/* Selecionada */
+.selected {
+background: #007bff;
+color: white;
+border-color: #007bff;
+}
+
+/* Botões */
+button {
+margin-top: 15px;
+padding: 10px 15px;
+border: none;
+border-radius: 6px;
+background: #007bff;
+color: white;
+cursor: pointer;
+font-size: 14px;
+transition: 0.2s;
+}
+
+button:hover {
+background: #0056b3;
+}
+
+button:disabled {
+background: #ccc;
+cursor: not-allowed;
+}
+
+/* Navegação */
+.buttons {
+display: flex;
+justify-content: space-between;
+}
+
+/* Resultado */
+#result {
+margin-top: 20px;
+font-size: 22px;
+font-weight: bold;
+color: #333;
+}
