@@ -66,6 +66,7 @@ http://localhost/simulado/index.html
 * Thierry Henri do Carmo Melo
 * Caio Vinicius
 * Esdra de Jesus
+* Lucas Matheus Silva Dias
 
 ## Objetivo
 
